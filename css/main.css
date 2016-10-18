@@ -1,0 +1,148 @@
+body
+{
+background-image: url(../img/angrybirds.png);
+background-size: cover;
+background-position:  center center;
+background-repeat:no-repeat;
+
+}
+
+/*.sprites-bird, .sprites-black, .sprites-blue, .sprites-darkgreen, .sprites-green, .sprites-oneyellow, .sprites-pink, .sprites-red, .sprites-redone, .sprites-white, .sprites-yellow, .sprites-sling, {*/
+.frame div {
+  background-repeat: no-repeat;
+  background-image: url(../img/sheet.png);
+  background-size:500px 668px;
+}
+
+
+
+.sprites-bird {
+
+/*background*/
+     background-position: -2px 0px;
+    height: 166.67px;
+    width: 159.67px;
+
+/*container*/
+   position:absolute;
+top: 40px;
+right: 10px;
+
+}
+
+.sprites-black {
+  background-position: -170px 0px;
+  height: 169.67px;
+  width: 160.67px;
+
+position:absolute;
+top: 250px;
+right: 20px;
+
+}
+
+.sprites-blue {
+    background-position: -336px 0px;
+    height: 168.67px;
+    width: 160.67px;
+
+    position:absolute;
+top: 60px;
+left: 300px;
+
+}
+
+.sprites-darkgreen {
+background-position: -334px -193px;
+    height: 146.67px;
+    width: 160.67px;
+
+
+position:absolute;
+top: 250px;
+left: 120px;
+  }
+
+.sprites-green {
+  background-position: -339px -340px;
+    height: 148.67px;
+    width: 160.67px;
+
+    position:absolute;
+position:absolute;
+
+top: 100px;
+right: 200px;
+
+}
+
+.sprites-oneyellow {
+      background-position: -3px -180px;
+    height: 173.67px;
+    width: 160.67px;
+
+    position:absolute;
+top: 250px;
+right: 300px;
+  }
+
+.sprites-pink {
+    background-position: -336px -504px;
+    height: 168.67px;
+    width: 160.67px;
+
+    position:absolute;
+top: 165px;
+left: 0px;
+}
+
+.sprites-red {
+     background-position: -166px -503px;
+    height: 168.67px;
+    width: 160.67px;
+
+    position:absolute;
+top: 250px;
+left: 443px;
+}
+
+.sprites-redone {
+  background-position: 1px -332px;
+    height: 168.67px;
+    width: 163.67px;
+
+    position:absolute;
+top: 200px;
+right: 450px;
+}
+
+.sprites-white {
+  background-position: -168px -170px;
+    height: 158.67px;
+    width: 160.67px;
+
+    position:absolute;
+top: 100px;
+left: 600px;
+}
+
+.sprites-yellow {
+      background-position: -6px -510px;
+    height: 148.67px;
+    width: 160.67px;
+
+    position:absolute;
+top: 0px;
+left: 110px;
+}
+
+.sprites-sling {
+background-position: -166px -340px;
+    height: 158.67px;
+    width: 170.67px;
+
+    position:absolute;
+top: 20px;
+right: 400px;
+}
+
